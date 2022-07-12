@@ -1,0 +1,236 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    /* outline: dotted 1px red; */
+}
+
+#container {
+    width: 970px;
+    background-color: #2d2d2d;
+}
+
+div header {
+    min-height: 10px;
+    background-color: rgb(136, 146, 191);
+    border-bottom: solid 5px rgb(79, 91, 147);
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+#active {
+    color: white;
+    background-color: rgb(79, 91, 147);
+    padding: 12px;
+    margin-bottom: 0px;
+}
+
+input {
+    width: 250px;
+}
+
+.phplogo1 {
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 20px;
+    object-fit: cover;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.phplogo2 {
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 20px;
+    object-fit: cover;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 200px;
+}
+
+header ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header ul li {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #DDE0EC;
+    padding: 10px;
+}
+
+#title ul {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#title ul li {
+    display: inline-block;
+    color: rgb(196, 194, 193);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0px 15px 10px;
+    font-size: 10px;
+}
+
+.navigation {
+    margin-left: 400px;
+}
+
+.navigation ul li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0px 15px 10px;
+    font-size: 10px;
+    padding-left: 30px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: rgb(196, 194, 193);
+}
+
+div #title,
+div .navigation {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.article {
+    background-color: #f2f2f2;
+    margin-left: 10px;
+    width: 620px;
+    padding: 20px 10px 10px 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.article h6 {
+    font-size: 12px;
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
+    color: #585757;
+}
+
+.article select {
+    width: 80px;
+    height: 20px;
+    font-size: 9px;
+}
+
+.article h6,
+.article select {
+    display: inline-block;
+    height: 15px;
+}
+
+.setting a {
+    color: rgb(72, 120, 166);
+    text-decoration: none;
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 18px;
+}
+
+.setting {
+    margin-left: 450px;
+}
+
+.article ul li a {
+    margin-left: 0px;
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
+    color: rgb(72, 120, 166);
+    font-size: 11px;
+}
+
+.article p a {
+    margin-left: 0px;
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
+    color: rgb(72, 120, 166);
+}
+
+.article ul {
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 5px 0px 5px 0px;
+    border-bottom: dashed 1px #33333D;
+    color: #33333D;
+    margin-bottom: 20px;
+}
+
+.article p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding: 10px 0px 10px 0px;
+    color: #585757;
+}
+
+h2 {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #793867;
+}
+
+.notes {
+    padding: 15px 0px 10px 0px;
+    border-bottom: dashed 1px #793867;
+}
+
+.addnote {
+    margin-left: 410px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-bottom: solid 1px;
+    color: rgb(72, 120, 166);
+}
+
+.addnote img {
+    width: 10px;
+}
+
+.page {
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 230px;
+}
+
+h3 {
+    color: rgb(196, 194, 193);
+    font-size: 13px;
+    padding-bottom: 10px;
+    border-bottom: dashedd 1px;
+}
+
+h4 {
+    color: rgb(196, 194, 193);
+    font-size: 11px;
+    padding: 5px;
+    border-bottom: dashed 1px;
+}
+
+h5 {
+    color: #AE5087;
+    font-size: 11px;
+    border-bottom: dashed 1px;
+    padding: 5px 0px 3px 0px;
+}
+
+footer {
+    padding: 20px 0px 10px 20px;
+}
+
+footer ul li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    color: rgb(196, 194, 193);
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
